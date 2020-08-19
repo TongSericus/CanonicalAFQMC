@@ -1,7 +1,0 @@
-beta    10
-number_sites	3
-numeber_bosons	3
-delta_tau	0.01
-t	0.01
-U	0.01
-flag_background_subtraction 1
