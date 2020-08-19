@@ -1,0 +1,14 @@
+beta    0.2
+number_sites	3
+numeber_bosons	3
+delta_tau	0.005
+t	1
+U	2
+num_iteration   1e3
+flag_background_subtraction 1
+flag_density_matrix 1
+# flag for obsevables #
+KineticEnergy 1
+PotentialEnergy 0
+TotalEnergy 0
+CondensationFraction 0
