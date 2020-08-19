@@ -1,0 +1,373 @@
+       Canonical Ensemble AFQMC for Hubbard Model     
+
+Number of Blocks: 40
+Length of Img Timestep: 0.0400
+Stablization Interval: 25
+
+Block # 1 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.66100     5.52639       -7.13461
+Error:
+0.00307     0.00132       0.00218
+
+Block # 2 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.51989     5.48108       -7.03881
+Error:
+0.00315     0.00132       0.00230
+
+Block # 3 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.65483     5.47770       -7.17714
+Error:
+0.00330     0.00141       0.00240
+
+Block # 4 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.78740     5.57490       -7.21250
+Error:
+0.00303     0.00130       0.00227
+
+Block # 5 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.77073     5.58174       -7.18898
+Error:
+0.00305     0.00130       0.00229
+
+Block # 6 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.82392     5.57874       -7.24518
+Error:
+0.00306     0.00139       0.00223
+
+Block # 7 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.56977     5.50538       -7.06439
+Error:
+0.00298     0.00131       0.00218
+
+Block # 8 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.78849     5.57033       -7.21816
+Error:
+0.00309     0.00128       0.00233
+
+Block # 9 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.76620     5.58008       -7.18612
+Error:
+0.00312     0.00132       0.00230
+
+Block # 10 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.72211     5.53952       -7.18259
+Error:
+0.00311     0.00128       0.00229
+
+Block # 11 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.75465     5.57028       -7.18438
+Error:
+0.00331     0.00136       0.00241
+
+Block # 12 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.83123     5.60201       -7.22922
+Error:
+0.00312     0.00128       0.00236
+
+Block # 13 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.63020     5.48443       -7.14577
+Error:
+0.00323     0.00135       0.00238
+
+Block # 14 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.74994     5.59285       -7.15708
+Error:
+0.00303     0.00127       0.00226
+
+Block # 15 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.62475     5.51790       -7.10686
+Error:
+0.00292     0.00129       0.00213
+
+Block # 16 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.59439     5.53716       -7.05722
+Error:
+0.00304     0.00129       0.00223
+
+Block # 17 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.74579     5.56459       -7.18121
+Error:
+0.00310     0.00133       0.00233
+
+Block # 18 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.75750     5.56715       -7.19035
+Error:
+0.00307     0.00134       0.00225
+
+Block # 19 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.68769     5.56202       -7.12567
+Error:
+0.00301     0.00126       0.00221
+
+Block # 20 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.66058     5.52543       -7.13515
+Error:
+0.00318     0.00128       0.00236
+
+Block # 21 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.75507     5.55571       -7.19936
+Error:
+0.00305     0.00124       0.00233
+
+Block # 22 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.65433     5.51042       -7.14391
+Error:
+0.00327     0.00132       0.00247
+
+Block # 23 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.75037     5.53309       -7.21729
+Error:
+0.00322     0.00131       0.00240
+
+Block # 24 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.74901     5.57163       -7.17738
+Error:
+0.00313     0.00132       0.00234
+
+Block # 25 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.69594     5.52796       -7.16798
+Error:
+0.00297     0.00125       0.00223
+
+Block # 26 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.58876     5.49373       -7.09503
+Error:
+0.00308     0.00136       0.00221
+
+Block # 27 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.73302     5.52058       -7.21245
+Error:
+0.00320     0.00131       0.00237
+
+Block # 28 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.74986     5.54931       -7.20055
+Error:
+0.00318     0.00136       0.00233
+
+Block # 29 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.63830     5.50548       -7.13281
+Error:
+0.00333     0.00141       0.00241
+
+Block # 30 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.69904     5.51034       -7.18870
+Error:
+0.00319     0.00132       0.00238
+
+Block # 31 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.59212     5.49395       -7.09817
+Error:
+0.00306     0.00127       0.00228
+
+Block # 32 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.69094     5.56355       -7.12739
+Error:
+0.00294     0.00132       0.00212
+
+Block # 33 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.61679     5.56773       -7.04906
+Error:
+0.00314     0.00133       0.00227
+
+Block # 34 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.62699     5.50441       -7.12258
+Error:
+0.00324     0.00131       0.00239
+
+Block # 35 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.83276     5.54383       -7.28892
+Error:
+0.00314     0.00134       0.00236
+
+Block # 36 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.65215     5.51657       -7.13558
+Error:
+0.00298     0.00134       0.00221
+
+Block # 37 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.66537     5.55912       -7.10625
+Error:
+0.00313     0.00131       0.00229
+
+Block # 38 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.64805     5.48834       -7.15971
+Error:
+0.00327     0.00145       0.00233
+
+Block # 39 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.53180     5.53332       -6.99849
+Error:
+0.00300     0.00129       0.00220
+
+Block # 40 out of 40
+--------------------
+Average Sign: 1.00
+Maximum Occupancy: 0.99
+Ek            Ep            Etot
+-12.66566     5.55529       -7.11038
+Error:
+0.00305     0.00130       0.00224
+
+--------------------
+Results for this run:
+Ek            Ep            Etot
+-12.69094     5.53860       -7.15233
+Error:
+0.00311     0.00132       0.00230
+
