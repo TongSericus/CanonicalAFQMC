@@ -75,11 +75,12 @@ function mainbody()
     filename = string("output_Ns", lattice.nsites, "_U", lattice.U, "_beta", qmc.Δτ * qmc.L)
     outputfile = open(filename, "a+")
     @printf(outputfile, "       Canonical Ensemble AFQMC for Hubbard Model     \n\n")
+    @printf(outputfile, "Number of Electrons: %d\n", lattice.ntot)
     @printf(outputfile, "Number of Blocks: %d\n", qmc.nblocks)
     @printf(outputfile, "Length of Img Timestep: %.4f\n", qmc.Δτ)
     @printf(outputfile, "Stablization Interval: %d\n\n", opt.stab_interval)
     for i = 1 : qmc.nblocks
-        SubE, SubE_error, SubEk, SubEk_error, SubEp, SubEp_error, sgn_mean, NiMax = MCIntegration(lattice, qmc, opt)
+        SubE, SubE_error, SubEk, SubEk_error, SubEp, SubEp_error, sgn_mean = MCIntegration(lattice, qmc, opt)
         SubE = SubE / sgn_mean
         SubEk = SubEk / sgn_mean
         SubEp = SubEp / sgn_mean
@@ -87,7 +88,6 @@ function mainbody()
         @printf(outputfile, "Block # %d out of %d\n", i, qmc.nblocks)
         @printf(outputfile, "--------------------\n")
         @printf(outputfile, "Average Sign: %.2f\n", sgn_mean)
-        @printf(outputfile, "Maximum Occupancy: %.2f\n", NiMax)
         @printf(outputfile, "Ek            Ep            Etot\n")
         @printf(outputfile, "%.5f     %.5f       %.5f\n", SubEk, SubEp, SubE)
         @printf(outputfile, "Error:\n")
@@ -100,9 +100,9 @@ function mainbody()
         push!(SubE_array, SubE)
         push!(SubE_error_array, SubE_error)
     end
-    Ek_mean, Ek_error = mean(SubEk_array), mean(SubEk_error_array)
-    Ep_mean, Ep_error = mean(SubEp_array), mean(SubEp_error_array)
-    E_mean, E_error = mean(SubE_array), mean(SubE_error_array)
+    Ek_mean, Ek_error = mean(SubEk_array), mean(SubEk_error_array) / sqrt(qmc.nblocks)
+    Ep_mean, Ep_error = mean(SubEp_array), mean(SubEp_error_array) / sqrt(qmc.nblocks)
+    E_mean, E_error = mean(SubE_array), mean(SubE_error_array) / sqrt(qmc.nblocks)
 
     @printf(outputfile, "--------------------\n")
     @printf(outputfile, "Results for this run:\n")
@@ -112,5 +112,3 @@ function mainbody()
     @printf(outputfile, "%.5f     %.5f       %.5f\n\n", Ek_error, Ep_error, E_error)
     close(outputfile)
 end
-
-mainbody()

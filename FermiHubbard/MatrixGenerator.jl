@@ -31,7 +31,7 @@ function matrix_product_stepwise(σlist::Array{Int64,2}, lattice::Lattice, qmc::
     end
     EigensUp = eigen(MatProdUp)
     EigensDn = eigen(MatProdDn)
-    return MatProdUp, MatProdDn, EigensUp, EigensDn
+    return EigensUp, EigensDn
 end
 
 # Use QR decomposition to stablize the propogation
@@ -69,7 +69,7 @@ function matrix_product_QR(σlist::Array{Int64,2}, lattice::Lattice, qmc::QMC, n
     mul!(MatProdDn, QRDn_Q, QRDn_R)
     EigensUp = eigen(MatProdUp)
     EigensDn = eigen(MatProdDn)
-    return MatProdUp, MatProdDn, EigensUp, EigensDn
+    return EigensUp, EigensDn
 end
 
 # generate overlap "tensor" / column major

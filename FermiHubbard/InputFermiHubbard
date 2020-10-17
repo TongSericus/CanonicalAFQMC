@@ -1,13 +1,13 @@
 Beta    4
-NumOfSites	18
-NumOfSpinUp	9
-NumOfSpinDn 9
+NumOfSites	16
+NumOfSpinUp	8
+NumOfSpinDn 8
 delta_tau	0.05
 t	1
 U	4
 NumBlocks   1
-NumOfSamples  1e4
+NumOfSamples  2e5
 
 ## Optimization Parameters ##
-NumOfStablizationInterval   80
-NumofBurn-ins   1
+NumOfStablizationInterval   40
+NumofBurn-ins   1e3
